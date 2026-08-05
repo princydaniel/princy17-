@@ -1,0 +1,34 @@
+
+#Two numeric inputs from user:
+#-----------------------------
+
+num_1=int(input("Enter first number: "))
+num_2=int(input("Enter second number: "))
+
+#Arithmetic Operation
+#-----------------------
+
+print("Addition: ",num_1+num_2)
+print("Subtraction: ",num_1-num_2)
+print("Multiplication: ",num_1*num_2)
+
+#Check for division by Zero
+#---------------------------
+if num_2!=0:
+
+    print("Division: ", num_1 / num_2)
+
+else:
+
+    print("Division:,cannot divide by Zero")
+
+#String Concatenation
+#....................
+
+a=str(num_1)
+b =str(num_2)
+sum=a+b
+
+print("Concatenated string:",sum)
+
+#*********************************************
