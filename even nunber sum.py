@@ -9,5 +9,8 @@ if n>=0:
        if i%2==0:
         even_s= even_s+i
         count=count+1
-print("Sum of even number is:",even_s)
-print("number of even numbers: ",count)
+ print("Sum of even number is:",even_s)
+ print("number of even numbers: ",count)
+else:
+ print("Enter a positive intiger")
+
